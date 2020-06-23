@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '5.0.7.1'
+#gem 'rails'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'sass-rails', "~> 5.0.0"	
@@ -14,7 +15,7 @@ group :development, :test do
   gem 'rack_session_access'
   gem "capybara"
   gem "database_cleaner"
-  gem "pry-byebug"
+  gem "pry-byebug" 
   gem "rspec-rails"
 end
 
